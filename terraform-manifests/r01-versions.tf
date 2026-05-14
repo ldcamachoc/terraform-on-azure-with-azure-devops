@@ -31,5 +31,3 @@ provider "random" {
   # Configuration options
 }
 
-#Added change to test
-#QA, Stage and Prod  env added
