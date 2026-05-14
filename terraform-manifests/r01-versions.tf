@@ -18,6 +18,7 @@ terraform {
     container_name       = "tfstatefiles"
     key                  = "project-1-eastus2-terraform.tfstate"
   }*/
+  backend "azurerm" {}
 }
 
 provider "azurerm" {
